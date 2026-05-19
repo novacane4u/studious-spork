@@ -1,0 +1,15 @@
+{
+  "name": "studious-spork",
+  "version": "0.1.0",
+  "description": "Interactive coding tutor for Java and other languages.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["coding", "tutor", "java", "python", "javascript", "learning"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.4"
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studious Spork | Coding Tutor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <h1>Studious Spork</h1>
+      <p>Your interactive coding tutor for Java, Python, JavaScript, and more.</p>
+    </header>
+
+    <section class="panel">
+      <div class="controls">
+        <label for="language">Choose a language</label>
+        <select id="language">
+          <option value="Java">Java</option>
+          <option value="Python">Python</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="General">General Coding</option>
+        </select>
+      </div>
+
+      <div class="ask-box">
+        <label for="question">Ask a coding question</label>
+        <textarea id="question" rows="4" placeholder="Example: How do I define a class in Java?" aria-label="Ask a coding question"></textarea>
+        <button id="askButton">Ask Tutor</button>
+      </div>
+
+      <div id="response" class="response hidden"></div>
+    </section>
+
+    <section class="panel training-panel">
+      <h2>Training & Challenges</h2>
+      <p>Practice topics and view ready examples to build confidence.</p>
+      <div id="trainingList" class="training-list"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
